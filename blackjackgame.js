@@ -19,9 +19,10 @@ function getNextCard()
 }
 let deck=createDeck();
 
-for (let i=0; i<deck.length;i++){
+/*for (let i=0; i<deck.length;i++){
     console.log(deck[i]);
 }
+*/
 
 let playerCard=[getNextCard(),getNextCard()];
 console.log(playerCard);
